@@ -1,0 +1,25 @@
+{
+  "vite": true,
+  "plugins": [
+    [
+      "build-plugin-moment-locales",
+      {
+        "locales": [
+          "zh-cn"
+        ]
+      }
+    ],
+    [
+      "build-plugin-ignore-style",
+      {
+        "libraryName": "@alifd/next"
+      }
+    ]
+  ],
+    "proxy": {
+        "/api": {
+        "enable": true,
+        "target": "https://api.fanyi.baidu.com"
+      }
+    }
+}

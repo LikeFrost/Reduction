@@ -1,7 +1,5 @@
-
-## Fusion Design Lite - TS
-
-> 轻量级模板，使用 TypeScript，仅包含基础的 Layout。
+## 论文降重系统
+基于百度翻译，利用了不同语言语序、词语用法不同的特性
 
 ## 使用
 

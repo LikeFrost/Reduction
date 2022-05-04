@@ -23,10 +23,11 @@
   "scripts": {
     "start": "icejs start",
     "build": "icejs build",
-    "lint": "npm run eslint && npm run stylelint",
+    "lint": "npm run eslint:fix && npm run stylelint:fix",
     "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx ./",
     "eslint:fix": "npm run eslint -- --fix",
-    "stylelint": "stylelint \"**/*.{css,scss,less}\""
+    "stylelint": "stylelint \"**/*.{css,scss,less}\"",
+    "stylelint:fix":"npm run stylelint -- --fix"
   },
   "repository": {
     "type": "git",
